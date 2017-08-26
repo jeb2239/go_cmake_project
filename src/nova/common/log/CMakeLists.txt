@@ -1,0 +1,1 @@
+ADD_GO_LIBRARY(log "STATIC")
