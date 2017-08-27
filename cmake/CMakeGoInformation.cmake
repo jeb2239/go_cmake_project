@@ -3,5 +3,7 @@ if(NOT CMAKE_Go_COMPILE_OBJECT)
 endif()
 
 if(NOT CMAKE_Go_LINK_EXECUTABLE)
+  
   set(CMAKE_Go_LINK_EXECUTABLE "go tool link -o <TARGET> <OBJECTS>  ")
 endif()
+
